@@ -1,3 +1,8 @@
+package com.gol.implementation;
+
+/**
+ * Data structure and algorithm of Game of Life
+ * */
 public class GOLStructure {
     private final int len;
 

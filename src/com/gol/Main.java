@@ -1,3 +1,8 @@
+package com.gol;
+
+import com.gol.implementation.GOLEnum;
+import com.gol.implementation.GameOfLife;
+
 public class Main {
     public static void main(String[] args) {
         GameOfLife gameOfLife = new GameOfLife(10);

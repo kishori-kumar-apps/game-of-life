@@ -1,3 +1,8 @@
+package com.gol.implementation;
+
+/**
+ * A kind of front controller for Game of Life
+ * */
 public class GameOfLife {
     private final GOLStructure gOLStructure;
 

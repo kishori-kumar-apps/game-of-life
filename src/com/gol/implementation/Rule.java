@@ -1,8 +1,13 @@
+package com.gol.implementation;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.BiFunction;
 
+/**
+ * Rules to be applied for the game of life
+ * */
 public class Rule {
     private final List<BiFunction<Integer, GOLEnum, Optional<GOLEnum>>> ruleList;
 
